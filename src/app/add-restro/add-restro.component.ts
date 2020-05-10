@@ -8,7 +8,7 @@ import { RestroService } from "../service/restro.service";
   styleUrls: ["./add-restro.component.css"]
 })
 export class AddRestroComponent implements OnInit {
-  restro: Restro;
+  restro: Restro = { name : undefined , address : undefined , img : undefined};
 
   constructor(private restroService: RestroService) {}
 

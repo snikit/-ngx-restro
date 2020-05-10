@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { RestroService } from '../app/service/restro.service';
-import { Restro } from '../app/model/restro.model';
+import { Restro } from '../model/restro.model';
+import { RestroService } from '../service/restro.service';
 
 @Component({
   selector: 'app-restro-list',
