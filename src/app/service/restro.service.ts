@@ -9,6 +9,10 @@ restros : Restro[] = [{
   name : 'abc',
   address : 'cx',
   img : 'dsa.jpg'
+} , {
+  name : 'abc',
+  address : 'cx',
+  img : 'dsa.jpg'
 }];
 
 
